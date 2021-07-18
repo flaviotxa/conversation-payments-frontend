@@ -30,6 +30,7 @@
     "@cobalt/react-tab": "^1.1.2",
     "@cobalt/react-table": "^1.2.0",
     "@cobalt/react-tag": "^1.2.1-pre.881589b",
+    "@cobalt/react-textarea": "^1.2.3",
     "@cobalt/react-theme-provider": "^2.0.1",
     "@cobalt/react-toggle": "^1.1.4",
     "@cobalt/react-typography": "^1.2.2",

@@ -3,8 +3,6 @@ import React, { useState } from "react";
 import Flex from "@cobalt/react-flex";
 import Card from "@cobalt/react-card";
 import Image from "@cobalt/react-image";
-import { useTheme } from "@cobalt/react-theme-provider";
-import { Text } from "@cobalt/react-typography";
 import { ExpandableRow, Cell } from "@cobalt/react-table";
 import Icon from "@cobalt/react-icon";
 import Tag from "@cobalt/react-tag";
@@ -14,7 +12,6 @@ import CardDetailForm from "./CardDetailForm";
 export default function CardItem({ provider }) {
   const [expand, setExpand] = useState(false);
   const [active, setActive] = useState(false);
-  const theme = useTheme();
   return (
     <>
       <ExpandableRow

@@ -7,7 +7,6 @@ import Label from "@cobalt/react-label";
 import Toggle from "@cobalt/react-toggle";
 
 import { useTheme } from "@cobalt/react-theme-provider";
-import { Text } from "@cobalt/react-typography";
 
 export default function CardDetailForm({ setActive }) {
   const [toggleActive, setToggleActive] = useState(false);
@@ -19,7 +18,7 @@ export default function CardDetailForm({ setActive }) {
         <Card>
           <Flex
             alignY="center"
-            paddingX="6"
+            paddingX="10"
             paddingY="5"
             alignX="space-between"
           >
@@ -31,7 +30,6 @@ export default function CardDetailForm({ setActive }) {
               onClick={() => {
                 console.log("updateAppPath({ path: card.url });");
               }}
-              height="40px"
             >
               <Flex
                 theme={theme}
@@ -45,18 +43,23 @@ export default function CardDetailForm({ setActive }) {
                 </Flex>
 
                 <Flex direction="column">
-                  <Label htmlFor="api-key">API Secret</Label>
-                  <Input readOnly={toggleActive} id="api-key" />
+                  <Label htmlFor="api-secret">API Secret</Label>
+                  <Input readOnly={toggleActive} id="api-secret" />
                 </Flex>
 
                 <Flex direction="column">
-                  <Label htmlFor="api-key">Success URL</Label>
-                  <Input readOnly={toggleActive} id="api-key" />
+                  <Label htmlFor="success-url">Success URL</Label>
+                  <Input readOnly={toggleActive} id="success-url" />
                 </Flex>
 
                 <Flex direction="column">
-                  <Label htmlFor="api-key">Cancel URL</Label>
-                  <Input readOnly={toggleActive} id="api-key" />
+                  <Label htmlFor="cancel-url">Cancel URL</Label>
+                  <Input readOnly={toggleActive} id="cancel-url" />
+                </Flex>
+
+                <Flex direction="column">
+                  <Label htmlFor="template-message">Template Message</Label>
+                  <Input readOnly={toggleActive} id="template-message" />
                 </Flex>
 
                 <Flex gap="2" alignY="center">
