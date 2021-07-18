@@ -1360,6 +1360,11 @@
   resolved "https://hub.talkdeskapp.com:8443/repository/talkdesk-npm/@cobalt/css-tag/-/css-tag-1.3.0-pre.02aee3b.tgz#58d77f9a91fffe46b763d4eea25d7691f095577c"
   integrity sha512-ekxJr1pkBZquWvBF9V0Lq6PoXAjDLsTiSZkXSoGEbKpK78yZQ7zeGTN+cqQikKdwCGFxXnd4g5rfRzv26AOK0g==
 
+"@cobalt/css-textarea@^1.2.0":
+  version "1.2.0"
+  resolved "https://hub.talkdeskapp.com:8443/repository/talkdesk-npm/@cobalt/css-textarea/-/css-textarea-1.2.0.tgz#79dd40c77dba22d92c1d6a973cbda032f1fb6e51"
+  integrity sha512-9NxmY6jR6LpU1KWi1LZPxv8NPu6nyYv3DX0J9lz2d0S5U001QEsVZJ2Pzu5etHnenf54e+ibAeux0jOQxuVB4w==
+
 "@cobalt/css-toggle@^1.2.0":
   version "1.2.0"
   resolved "https://hub.talkdeskapp.com:8443/repository/talkdesk-npm/@cobalt/css-toggle/-/css-toggle-1.2.0.tgz#f67a880bc48ee3f45f8812b5c779477ee283e900"
@@ -1561,6 +1566,14 @@
   integrity sha512-65N2EAvkQhplhs6qi7D3Gy/fRpSrfaqsOi6DPt2OpuLFkRbYJXM5cSRlCQ9FeQJBeofs7Y1Yq7pmQlMeQJ0+Dg==
   dependencies:
     "@cobalt/css-tag" "1.3.0-pre.02aee3b"
+    classcat "^4.0.2"
+
+"@cobalt/react-textarea@^1.2.3":
+  version "1.2.3"
+  resolved "https://hub.talkdeskapp.com:8443/repository/talkdesk-npm/@cobalt/react-textarea/-/react-textarea-1.2.3.tgz#baab7267deb47c12a57d3fef347a9744f9ce198e"
+  integrity sha512-uwaxCDXFTpm2SV7Q0fH68rMeuvknplXfyMTeFwUSy3v0tCMoD2Qr2RUzkbdzNdTbS1B8ptY78ooF5ZqYtkFu0w==
+  dependencies:
+    "@cobalt/css-textarea" "^1.2.0"
     classcat "^4.0.2"
 
 "@cobalt/react-theme-provider@^2.0.1":
