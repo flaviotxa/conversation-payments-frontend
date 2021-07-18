@@ -1,0 +1,19 @@
+{
+  "id": "livechat-config-ui-app-id",
+  "name": "test-live-chat",
+  "version": "0.0.0",
+  "sdk-version": "0",
+  "capabilities": ["authorization", "navigation", "form", "popup", "toast"],
+  "scopes": [
+    "openid",
+    "flows:read",
+    "provider-abstraction-service:write",
+    "provider-abstraction-service:read",
+    "email-touchpoints:read"
+  ],
+  "assets": {
+    "icon": "https://cdn1.iconfinder.com/data/icons/miscicons/500/globe-512.png"
+  },
+  "src": "http://localhost:3000",
+  "slug": "channels"
+}

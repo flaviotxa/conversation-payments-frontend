@@ -1,0 +1,18 @@
+{
+  "children": [
+    {
+      "title": "Admin",
+      "icon": "https://stg-cdn-talkdesk.talkdeskdev.com/cdn-assets/latest/talkdesk/product/app-icons/settings.svg",
+      "type": "submenu",
+      "children": [
+        {
+          "title": "Conversation Payments",
+          "slug": "channels",
+          "icon": "https://stg-cdn-talkdesk.talkdeskdev.com/cdn-assets/latest/talkdesk/product/app-icons/settings.svg",
+          "type": "droplet",
+          "path": "/"
+        }
+      ]
+    }
+  ]
+}
